@@ -13,7 +13,10 @@ const Header = () => {
         <NavLink to="pages to read">Pages to read</NavLink>
       </li>
       <li>
-        <NavLink to="pages to read">new books</NavLink>
+        <NavLink to="new books">new books</NavLink>
+      </li>
+      <li>
+        <NavLink to="review">Review</NavLink>
       </li>
     </>
   );
@@ -51,8 +54,8 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end gap-4">
-        <a className="btn text-white bg-[#23BE0A]">Sign in</a>
-        <a className="btn text-white bg-cyan-400">Sign up</a>
+        <a className="btn text-white bg-[#23BE0A]">Sign In</a>
+        <a className="btn text-white bg-cyan-400">Sign Up</a>
       </div>
     </div>
   );
