@@ -47,7 +47,7 @@ const Header = () => {
           </ul>
         </div>
         <a className="btn btn-ghost font-bold text-2xl">
-          Book <span className="text-[#23BE0A]">Bound</span>
+          Books <span className="text-[#23BE0A]">Bound</span>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">

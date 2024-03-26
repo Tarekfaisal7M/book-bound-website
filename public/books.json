@@ -1,0 +1,87 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "great_gatsby.jpg",
+      "review": "A captivating story of wealth, love, and tragedy in the Jazz Age.",
+      "totalPages": 180,
+      "rating": 4.5,
+      "category": "Classic Literature",
+      "tags": "Romance",
+      "tags2":  "Tragedy",
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 2,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "to_kill_a_mockingbird.jpg",
+      "review": "A powerful exploration of racial injustice and moral growth in the American South.",
+      "totalPages": 281,
+      "rating": 4.8,
+      "category": "Classic Fiction",
+      "tags": "Social Issues",
+      "tags2":  "Coming of Age",
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 3,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "1984.jpg",
+      "review": "A dystopian masterpiece that warns of the dangers of totalitarianism.",
+      "totalPages": 328,
+      "rating": 4.7,
+      "category": "Dystopian Fiction",
+      "tags": "Politics", 
+      "tags2":  "Surveillance",
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 4,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "pride_and_prejudice.jpg",
+      "review": "A timeless romance that explores themes of class, marriage, and social expectations.",
+      "totalPages": 279,
+      "rating": 4.6,
+      "category": "Classic Romance",
+      "tags": "Love Story",
+      "tags2":  "Regency Era",
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "catcher_in_the_rye.jpg",
+      "review": "An iconic coming-of-age novel that captures the disillusionment of youth.",
+      "totalPages": 224,
+      "rating": 4.4,
+      "category": "Modern Fiction",
+      "tags": "Youth", 
+      "tags2":  "Identity",
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 6,
+      "bookName": "Harry Potter",
+      "author": "J.K. Rowling",
+      "image": "harry_potter.jpg",
+      "review": "A magical journey of friendship and bravery in the wizarding world.",
+      "totalPages": 223,
+      "rating": 4.9,
+      "category": "Fantasy",
+      "tags": "Magic",
+      "tags2":  "Adventure",
+      "publisher": "Bloomsbury",
+      "yearOfPublishing": 1997
+    }
+  ]
+  
