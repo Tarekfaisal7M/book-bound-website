@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Review = () => {
   return (
     <section className="flex items-center h-full p-16 text-black">
@@ -12,12 +14,13 @@ const Review = () => {
           <p className="mt-4 mb-8 text-black">
             But dont worry, you can find plenty of other things on our homepage.
           </p>
-          <a
-            rel="noopener noreferrer"
-            href="#"
-            className="px-8 py-3 font-semibold rounded bg-[#23BE0A] text-white">
-            Back to homepage
-          </a>
+          <div>
+            <Link
+              to="/"
+              className="px-8 py-3 font-semibold rounded bg-[#23BE0A] text-white">
+              Back to HomePage
+            </Link>
+          </div>
         </div>
       </div>
     </section>
