@@ -1,0 +1,33 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://i.ibb.co/b7kW4w5/10212554014750.jpg"
+    },
+    {
+      "bookId": 2,
+      "bookName": "To Kill a Mockingbird 2",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/ccz1gpM/to-kill-a-mockingbird-by-harpe-1695899496-db441bc8-progressive.jpg"
+    },
+    {
+      "bookId": 3,
+      "bookName": "1984 part-2",
+      "author": "George Orwell",
+      "image": "https://i.ibb.co/Yc16wzK/1984-by-George-Orwell.jpg"
+    },
+    {
+      "bookId": 4,
+      "bookName": "Pride and Prejudice 2",
+      "author": "Jane Austen",
+      "image": "https://i.ibb.co/kxFK365/3425-prod-8733695111.jpg"
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Catcher in the Rye 3",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/kxFK365/3425-prod-8733695111.jpg"
+    }
+  ]
+  

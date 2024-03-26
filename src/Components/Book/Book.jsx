@@ -1,10 +1,12 @@
+import { FaRegStar } from "react-icons/fa";
+
 const Book = ({ book }) => {
-  const { bookName, rating, category, author, tags, tags2 } = book;
+  const { image, bookName, rating, category, author, tags, tags2 } = book;
   return (
     <div className="">
       <div className="max-w-xs p-6 rounded-md shadow-md  text-slate-950 ">
         <img
-          src="https://source.unsplash.com/random/300x300/?1"
+          src={image}
           alt=""
           className="object-cover object-center w-full rounded-md h-72 bg-gray-500"
         />
@@ -20,7 +22,9 @@ const Book = ({ book }) => {
         <hr />
         <div className="flex flex-wrap justify-between pt-3 space-x-2 text-black">
           <span>{category}</span>
-          <span>{rating}</span>
+          <span className="flex gap-3">
+            {rating} <FaRegStar></FaRegStar>
+          </span>
         </div>
       </div>
     </div>
