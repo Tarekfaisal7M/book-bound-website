@@ -2,9 +2,9 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 const BookDetails = () => {
   const books = useLoaderData();
-  const { bookId } = useParams();
+  const { id } = useParams();
 
-  const book = books.find((book) => book.id === bookId);
+  const book = books.find((book) => book.bookId == id);
   console.log(book);
 
   return (
@@ -43,11 +43,18 @@ const BookDetails = () => {
                     <div className="flex items-center justify-center  rounded-md dark:bg-violet-600 dark:text-gray-50"></div>
                   </div>
                   <div className="">
-                    <h4 className="text-lg font-semibold dark:text-gray-900">
-                      Tag
-                    </h4>
-                    <p className="mt-2 dark:text-gray-600">
-                      {book.tags} {book.tags2}
+                    <p>
+                      Number Of Page : <span></span>
+                    </p>
+                    <p>
+                      Publisher: <span></span>
+                    </p>
+                    <p>
+                      Year of Publish :{" "}
+                      <span className="font-bold">{book.yearOfPublishing}</span>
+                    </p>
+                    <p>
+                      Rating : <span></span>
                     </p>
                   </div>
                 </div>
