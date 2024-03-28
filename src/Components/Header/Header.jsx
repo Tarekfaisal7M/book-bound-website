@@ -7,13 +7,13 @@ const Header = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="listed books">listed Books</NavLink>
+        <NavLink to="listed-books">listed Books</NavLink>
       </li>
       <li>
-        <NavLink to="pages to read">Pages to read</NavLink>
+        <NavLink to="pages-to-read">Pages to read</NavLink>
       </li>
       <li>
-        <NavLink to="upcoming books">Upcoming Books</NavLink>
+        <NavLink to="upcoming-books">Upcoming Books</NavLink>
       </li>
       <li>
         <NavLink to="review">Review</NavLink>

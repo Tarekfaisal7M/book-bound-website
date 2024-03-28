@@ -25,7 +25,7 @@ const ListedBooks = () => {
       }
       setBookList(bookListed);
 
-      // console.log(bookListed);
+      // console.log(bookList);
     }
   }, []);
 
