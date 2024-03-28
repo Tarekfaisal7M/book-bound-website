@@ -7,7 +7,7 @@ const Book = ({ book }) => {
   return (
     <Link to={`/book/${bookId}`}>
       <div className="">
-        <div className="max-w-xs p-6 transition border-2 hover:scale-105 border-primary hover:border-secondary border-opacity-30 rounded-md shadow-md  text-slate-950 ">
+        <div className="max-w-xs p-6 transition border-2 hover:scale-105 border-primary hover:border-secondary border-opacity-30 rounded-md shadow-md text-slate-950 ">
           <img
             src={image}
             alt=""

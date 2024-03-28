@@ -1,4 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const BookDetails = () => {
   const books = useLoaderData();
@@ -6,6 +8,14 @@ const BookDetails = () => {
 
   const book = books.find((book) => book.bookId == id);
   console.log(book);
+
+  const handleWishList = () => {
+    toast("Book added to wishlist");
+  };
+
+  const handleReadBook = () => {
+    toast("Book added to Read list");
+  };
 
   return (
     <section className="dark:bg-gray-100 dark:text-gray-800">
@@ -44,17 +54,19 @@ const BookDetails = () => {
                   </div>
                   <div className="">
                     <p>
-                      Number Of Page : <span></span>
+                      Number Of Page :{" "}
+                      <span className="font-bold">{book.totalPages}</span>
                     </p>
                     <p>
-                      Publisher: <span></span>
+                      Publisher:{" "}
+                      <span className="font-bold">{book.publisher}</span>
                     </p>
                     <p>
-                      Year of Publish :{" "}
+                      Year of Publish :
                       <span className="font-bold">{book.yearOfPublishing}</span>
                     </p>
                     <p>
-                      Rating : <span></span>
+                      Rating : <span className="font-bold">{book.rating}</span>
                     </p>
                   </div>
                 </div>
@@ -63,8 +75,14 @@ const BookDetails = () => {
                     <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50"></div>
                   </div>
                   <div className="space-x-9">
-                    <button className="btn ">Read</button>
-                    <button className="btn bg-cyan-500">Wishlist</button>
+                    <button onClick={handleReadBook} className="btn ">
+                      Read
+                    </button>
+                    <button
+                      onClick={handleWishList}
+                      className="btn bg-cyan-500">
+                      Wishlist
+                    </button>
                   </div>
                 </div>
               </div>
@@ -79,6 +97,7 @@ const BookDetails = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 };
